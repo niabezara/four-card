@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  background: #f2f2f2;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.32rem 2rem;
+}
+
+.reliable {
+  font-style: normal;
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.166667px;
+  color: #4d4f62;
+  text-align: center;
+}
+
+.powered {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.166667px;
+  color: #4d4f62;
+  margin-bottom: 13px;
+}
+
+.info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.104167px;
+  color: #4d4f62;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 4.75rem;
+}
+
+/* main section  */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 25px;
+}
+.card {
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cyan-header {
+  width: 100%;
+  height: 3px;
+  background: #44d3d2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.red-header {
+  width: 100%;
+  height: 3px;
+  background: #ea5454;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.yellow-header {
+  width: 100%;
+  height: 3px;
+  background: #fcae4a;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.blue-header {
+  width: 100%;
+  height: 3px;
+  background: #549ef2;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+.sub-div {
+  padding: 1.75rem;
+}
+.card h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4d4f62;
+}
+
+.card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.0902778px;
+  color: #4d4f62;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.card img {
+  width: 57px;
+  margin-top: 1.56rem;
+  margin-left: auto;
+  display: block;
+}
+
+.desktop-layer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 25px;
+}
+@media screen and (min-width: 1440px) {
+  main {
+    flex-direction: row;
+    margin-top: 5rem;
+  }
+  .info {
+    width: 33rem;
+    margin-bottom: unset;
+  }
+
+  .desktop-layer {
+    width: unset;
+  }
+  .card {
+    width: 22rem;
+  }
+  .sub-div {
+    width: 100%;
+    padding: 2rem;
+  }
+  .card img {
+    width: 64px;
+  }
+}
